@@ -47,8 +47,8 @@ client.on('message', message => {
     .setAuthor("[ Dragon Bot ]", " https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455")
     .addField("**[ Dragon Prefix] :**","**[ + ]**" , true)
     .addField("** [ Dragon ID ] **", "**"+"459725014237970492"+"**",true)
-    .addField("** [ Dragon ] **","** دراجون**")
-    .addField("**[ Bot Developer ]**","<@!402043862480322562> [! HP , ء Móha,$ 55₅ , .#5555]")
+    .addField("** [ Dragon ] **","** غدير**")
+    .addField("**[ Bot Developer ]**","<@!484526871573168129> [! HP , Mch , .#2955]")
     .addField("**[ Servers ]**" , "**"+`${client.guilds.size}`+" Server**",true)
     .addField("**[ Users ] **",`** ${client.users.size} User**`)
     .setThumbnail(" https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455")
@@ -152,11 +152,11 @@ client.on('message' , message => {
       if(message.content.startsWith( "+invite")) {
    
   const embed = new Discord.RichEmbed()
-    .setFooter(`©  Dragon™ `)
+    .setFooter(`غدير `)
        .setColor(0xd3d0c4)
   .setAuthor(message.author.username, message.author.avatarURL)
   .setTitle(':arrow_right: Click Here Invite Link اضغط هنا')
-  .setURL('https://discordapp.com/oauth2/authorize?client_id=459725014237970492&scope=bot&permissions=2146958583')
+  .setURL('https://discordapp.com/oauth2/authorize?client_id=500093765210603521&scope=bot&permissions=2146958583')
   
   message.channel.sendEmbed(embed);
   
@@ -172,7 +172,7 @@ client.on("message", message => {
        .setDescription(`
  
 
-🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
        اوامر البوت
 
 اوامر العامة
@@ -190,7 +190,7 @@ client.on("message", message => {
   أوامر القرأن الكريم
   └─**+help-quran**
 
-🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
 
 
   `)
@@ -1244,16 +1244,8 @@ message.react("😵")
  const embed = new Discord.RichEmbed() 
      .setColor("#fff")
      .setDescription(`
-╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━╮╱╱╱╭╮
-╰╮╭╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-╱┃┃┃┣━┳━━┳━━┳━━┳━╮┃╰╯╰┳━┻╮╭╯
-╱┃┃┃┃╭┫╭╮┃╭╮┃╭╮┃╭╮┫╭━╮┃╭╮┃┃
-╭╯╰╯┃┃┃╭╮┃╰╯┃╰╯┃┃┃┃╰━╯┃╰╯┃╰╮
-╰━━━┻╯╰╯╰┻━╮┣━━┻╯╰┻━━━┻━━┻━╯
-╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╰━━╯
-     
- ══════════ஜ۩۞۩ஜ════════════
+
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
  **       اوامر عامة    
 +bot
   └─ يعرض لك معلومات عن البوت
@@ -1315,12 +1307,9 @@ message.react("😵")
 +image
   └─ لي عرض صوره السيرفر**
 
-══════════ஜ۩۞۩ஜ════════════
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
 
-**:link: | الموقع الخاص بالبوت :** http://darknessxd.tk/WebSite/index.html
-🔗 **| دعوة البوت** : https://discordapp.com/oauth2/authorize?client_id=459725014237970492&scope=bot&permissions=2146958583
-:exclamation:  **| لدعوة البوت ** : +invite
-:exclamation:  **| لأرسال اقتراح لصاحب البوت** : +sug
+
  `)
  .setFooter('Requested by '+message.author.username, message.author.avatarURL)
  
@@ -2936,16 +2925,8 @@ message.react("📬")
  .setColor("#ffff00")
  .setDescription(`
  
-╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━╮╱╱╱╭╮
-╰╮╭╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-╱┃┃┃┣━┳━━┳━━┳━━┳━╮┃╰╯╰┳━┻╮╭╯
-╱┃┃┃┃╭┫╭╮┃╭╮┃╭╮┃╭╮┫╭━╮┃╭╮┃┃
-╭╯╰╯┃┃┃╭╮┃╰╯┃╰╯┃┃┃┃╰━╯┃╰╯┃╰╮
-╰━━━┻╯╰╯╰┻━╮┣━━┻╯╰┻━━━┻━━┻━╯
-╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╰━━╯
 
-  ══════════ஜ۩۞۩ஜ════════════ 
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
 **       اوامر ادارية    
 +bc
   └─ للبرودكاست بأمبد
@@ -3022,12 +3003,9 @@ message.react("📬")
 +move all
   └─ لسحب جميع الاشخاص الموجودون بالرومات الصوتية أليك**
   
- ══════════ஜ۩۞۩ஜ════════════  
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸 
  
- **:link: | الموقع الخاص بالبوت :** http://darknessxd.tk/WebSite/index.html
- 🔗 **| دعوة البوت** : https://discordapp.com/oauth2/authorize?client_id=459725014237970492&scope=bot&permissions=2146958583
- :exclamation:  **| لدعوة البوت ** : +invite
- :exclamation:  **| لأرسال اقتراح لصاحب البوت** : +sug
+
   `)
   .setFooter('Requested by '+message.author.username, message.author.avatarURL)
 
@@ -3618,16 +3596,8 @@ client.on("message", message => {
        .setColor("#fff")
       .setDescription(`
 
-╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━╮╱╱╱╭╮
-╰╮╭╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-╱┃┃┃┣━┳━━┳━━┳━━┳━╮┃╰╯╰┳━┻╮╭╯
-╱┃┃┃┃╭┫╭╮┃╭╮┃╭╮┃╭╮┫╭━╮┃╭╮┃┃
-╭╯╰╯┃┃┃╭╮┃╰╯┃╰╯┃┃┃┃╰━╯┃╰╯┃╰╮
-╰━━━┻╯╰╯╰┻━╮┣━━┻╯╰┻━━━┻━━┻━╯
-╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╰━━╯
-      
-══════════ஜ۩۞۩ஜ════════════  
+
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
  **      اوامر الاغاني   
 
 +play 
@@ -3645,12 +3615,9 @@ client.on("message", message => {
 +resume
   └─ لأستمرار الأغنية**
 
-══════════ஜ۩۞۩ஜ════════════ 
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
 
-**:link: | الموقع الخاص بالبوت :** http://darknessxd.tk/WebSite/index.html
-🔗 **| دعوة البوت** : https://discordapp.com/oauth2/authorize?client_id=459725014237970492&scope=bot&permissions=2146958583
-:exclamation:  **| لدعوة البوت ** : +invite
-:exclamation:  **| لأرسال اقتراح لصاحب البوت** : +sug
+
  `)
  .setFooter('Requested by '+message.author.username, message.author.avatarURL)
   
@@ -3974,7 +3941,7 @@ var prefix = "+";
         var args = message.content.split(" ").slice(1);
     if(message.content.startsWith(prefix + 'لو خيروك')) {
          var lo = new Discord.RichEmbed()
-     .setFooter(`©  Dragon™ `)
+     .setFooter(`غدير `)
 .setImage(viper[Math.floor(Math.random() * viper.length)])
 message.channel.sendEmbed(lo);
     }
@@ -4004,7 +3971,7 @@ const secreT = [
     .setColor('RANDOM')
    
      .setThumbnail(message.author.avatarURL) 
-     .setFooter(`©  Dragon™ `)
+     .setFooter(`غدير `)
    .addField('لعبه خواطر' ,
     `${secreT[Math.floor(Math.random() * secreT.length)]}`)
     message.channel.sendEmbed(embed);
@@ -4050,7 +4017,7 @@ client.on('message', message => {
  var embed = new Discord.RichEmbed()
  .setColor('RANDOM')
   .setThumbnail(message.author.avatarURL) 
-     .setFooter(`©  Dragon™ `)
+     .setFooter(`غدير `)
 .addField('لعبه كت تويت' ,
  `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`)
  message.channel.sendEmbed(embed);
@@ -4066,7 +4033,7 @@ client.on('message', message => {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor(0xd3d0c4)
-     .setFooter(`©  Dragon™ `)
+     .setFooter(`غدير `)
    .setThumbnail(message.author.avatarURL) 
  .addField('حب' ,
   `${Love[Math.floor(Math.random() * Love.length)]}`)
@@ -4081,7 +4048,7 @@ var prefix = "+";
         var args = message.content.split(" ").slice(1);
     if(message.content.startsWith(prefix + 'animal')) {
          var cat = new Discord.RichEmbed()
-     .setFooter(`©  Dragon™ `)
+     .setFooter(`غدير `)
 .setImage(cats[Math.floor(Math.random() * cats.length)])
 message.channel.sendEmbed(cat);
     }
@@ -4154,7 +4121,7 @@ if (message.content.startsWith('+صراحه')) {
  var client= new Discord.RichEmbed()
  .setTitle("لعبة صراحة ..")
  .setColor('RANDOM')
-     .setFooter(`©  Dragon™ `)
+     .setFooter(`غدير `)
  .setDescription(`${Sra7a[Math.floor(Math.random() * Sra7a.length)]}`)
  .setImage("https://cdn.discordapp.com/attachments/371269161470525444/384103927060234242/125.png")
                  .setTimestamp()
@@ -4247,16 +4214,9 @@ client.on("message", message => {
    const embed = new Discord.RichEmbed() 
        .setColor("#fff")
       .setDescription(`
-╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━╮╱╱╱╭╮
-╰╮╭╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-╱┃┃┃┣━┳━━┳━━┳━━┳━╮┃╰╯╰┳━┻╮╭╯
-╱┃┃┃┃╭┫╭╮┃╭╮┃╭╮┃╭╮┫╭━╮┃╭╮┃┃
-╭╯╰╯┃┃┃╭╮┃╰╯┃╰╯┃┃┃┃╰━╯┃╰╯┃╰╮
-╰━━━┻╯╰╯╰┻━╮┣━━┻╯╰┻━━━┻━━┻━╯
-╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╰━━╯
+
       
-══════════ஜ۩۞۩ஜ════════════  
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸  
  **       أوامر الألعاب
 
 +فكك
@@ -4290,12 +4250,9 @@ client.on("message", message => {
 +srh1
   └─ لأرسال صراحة مع ذكر اسم المصارح**
  
-══════════ஜ۩۞۩ஜ════════════ 
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸 
 
-**:link: | الموقع الخاص بالبوت :** http://darknessxd.tk/WebSite/index.html
-🔗 **| دعوة البوت** : https://discordapp.com/oauth2/authorize?client_id=459725014237970492&scope=bot&permissions=2146958583
-:exclamation:  **| لدعوة البوت ** : +invite
-:exclamation:  **| لأرسال اقتراح لصاحب البوت** : +sug
+
  `)
  .setFooter('Requested by '+message.author.username, message.author.avatarURL)
   
@@ -4324,16 +4281,9 @@ client.on("message", message => {
    const embed = new Discord.RichEmbed() 
        .setColor("#fff")
       .setDescription(`
-╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━╮╱╱╱╭╮
-╰╮╭╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-╱┃┃┃┣━┳━━┳━━┳━━┳━╮┃╰╯╰┳━┻╮╭╯
-╱┃┃┃┃╭┫╭╮┃╭╮┃╭╮┃╭╮┫╭━╮┃╭╮┃┃
-╭╯╰╯┃┃┃╭╮┃╰╯┃╰╯┃┃┃┃╰━╯┃╰╯┃╰╮
-╰━━━┻╯╰╯╰┻━╮┣━━┻╯╰┻━━━┻━━┻━╯
-╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╰━━╯
+
       
-══════════ஜ۩۞۩ஜ════════════  
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸 
  **       أوامر القرأن الكريم
 
 +quran
@@ -4357,12 +4307,9 @@ client.on("message", message => {
 +alkursi-stop
   └─ يوقف آية الكرسي**
  
-══════════ஜ۩۞۩ஜ════════════ 
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸 
 
-**:link: | الموقع الخاص بالبوت :** http://darknessxd.tk/WebSite/index.html
-🔗 **| دعوة البوت** : https://discordapp.com/oauth2/authorize?client_id=459725014237970492&scope=bot&permissions=2146958583
-:exclamation:  **| لدعوة البوت ** : +invite
-:exclamation:  **| لأرسال اقتراح لصاحب البوت** : +sug
+
  `)
  .setFooter('Requested by '+message.author.username, message.author.avatarURL)
   
