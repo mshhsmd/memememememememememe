@@ -3913,12 +3913,12 @@ client.on("message", message => {
                             message.channel.send(`**${proposed} 
                بدك تقبلي عرض الزواج من ${message.author}
                العرض لمدة 15 ثانية 
-               اكتب موافقة او لا** `)
+               اكتب موافقه او لا** `)
               
-              const filter = m => m.content.startsWith("موافقة");
+              const filter = m => m.content.startsWith("موافقه");
               message.channel.awaitMessages(filter, { max: 1, time: 15000, errors: ['time'] })
               .then(collected =>{ 
-                  message.channel.send(`**${message.author} و ${proposed} الف الف مبروك الله يرزقكم الذرية الصالحة**`);
+                  message.channel.send(`**${message.author} و ${proposed}  الف الف مبروك الله يرزقكم الذرية الصالحة كلولولولوش**`);
               })
                  .catch(collected => message.channel.send(`**السكوت علامة الرضا نقول مبروك ؟**`))
                  
@@ -3941,7 +3941,7 @@ var prefix = "+";
         var args = message.content.split(" ").slice(1);
     if(message.content.startsWith(prefix + 'لو خيروك')) {
          var lo = new Discord.RichEmbed()
-     .setFooter(`غدير `)
+     .setFooter(` غدير `)
 .setImage(viper[Math.floor(Math.random() * viper.length)])
 message.channel.sendEmbed(lo);
     }
@@ -3971,7 +3971,7 @@ const secreT = [
     .setColor('RANDOM')
    
      .setThumbnail(message.author.avatarURL) 
-     .setFooter(`غدير `)
+     .setFooter(` غدير `)
    .addField('لعبه خواطر' ,
     `${secreT[Math.floor(Math.random() * secreT.length)]}`)
     message.channel.sendEmbed(embed);
@@ -4017,7 +4017,7 @@ client.on('message', message => {
  var embed = new Discord.RichEmbed()
  .setColor('RANDOM')
   .setThumbnail(message.author.avatarURL) 
-     .setFooter(`غدير `)
+     .setFooter(` غدير `)
 .addField('لعبه كت تويت' ,
  `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`)
  message.channel.sendEmbed(embed);
@@ -4033,7 +4033,7 @@ client.on('message', message => {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor(0xd3d0c4)
-     .setFooter(`غدير `)
+     .setFooter(` غدير  `)
    .setThumbnail(message.author.avatarURL) 
  .addField('حب' ,
   `${Love[Math.floor(Math.random() * Love.length)]}`)
@@ -4121,7 +4121,7 @@ if (message.content.startsWith('+صراحه')) {
  var client= new Discord.RichEmbed()
  .setTitle("لعبة صراحة ..")
  .setColor('RANDOM')
-     .setFooter(`غدير `)
+     .setFooter(` غدير `)
  .setDescription(`${Sra7a[Math.floor(Math.random() * Sra7a.length)]}`)
  .setImage("https://cdn.discordapp.com/attachments/371269161470525444/384103927060234242/125.png")
                  .setTimestamp()
