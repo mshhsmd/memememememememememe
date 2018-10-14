@@ -31,7 +31,7 @@ client.on('ready',  () => {
 client.on('ready', async () => {
     console.log('I am ready!');
 
-    client.user.setPresence({ game: { name: '+help | +invite', type: 2 } });
+    client.user.setPresence({ game: { name: '+help أوامر 💎 +invite دعوة ', type: 2 } });
 });
 
 
@@ -53,7 +53,7 @@ client.on('message', message => {
     .addField("**[ Users ] **",`** ${client.users.size} User**`)
     .setThumbnail(" https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455")
     .setColor("ffffff")
-    .setFooter(`+help to see all Dragon commands `, ' https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455')
+    .setFooter(`+help to see all Ghadir commands `, ' https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455')
     message.channel.sendEmbed(embed)
     }
     });
@@ -68,7 +68,7 @@ const embed = new Discord.RichEmbed()
   
                    .setColor("RANDOM")
                 .setFooter(` غدير `)
-                .setTitle(" Dragon Left Server !")
+                .setTitle(" Ghadir Left Server !")
                 .addField("**Guild Name:**", guild.name )
                  .addField("**Owner:**", guild.owner.user.username )
                  .addField("**Owner id:**", guild.owner.user.id )
@@ -88,7 +88,7 @@ const embed = new Discord.RichEmbed()
   
                    .setColor("RANDOM")
                 .setFooter(` غدير `)
-                .setTitle(" Dragon Added To Server !")
+                .setTitle(" Ghadir Added To Server !")
                 .addField("**Guild Name:**", guild.name )
                  .addField("**Owner:**", guild.owner.user.username )
                  .addField("**MEMBER COUNT:**", g )
@@ -100,7 +100,7 @@ client.channels.get("427613133826162698").send({ embed: embed });
 client.on('message', message => {
     if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
-if (message.content.startsWith('+moha')){
+if (message.content.startsWith('+mch')){
 if (message.author.id !== '402043862480322562') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
