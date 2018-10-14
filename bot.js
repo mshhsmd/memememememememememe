@@ -44,10 +44,10 @@ client.on('message', message => {
     const days = millis / 1000 / 60 / 60 / 24;
     let roles = client.guilds.get(message.guild.id).roles.map(r => r.name);
     var embed  = new Discord.RichEmbed()
-    .setAuthor("[ Dragon Bot ]", " https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455")
-    .addField("**[ Dragon Prefix] :**","**[ + ]**" , true)
-    .addField("** [ Dragon ID ] **", "**"+"459725014237970492"+"**",true)
-    .addField("** [ Dragon ] **","** غدير**")
+    .setAuthor("[ Ghadir Bot ]", " https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455")
+    .addField("**[ Ghadir Prefix] :**","**[ + ]**" , true)
+    .addField("** [ Ghadir ID ] **", "**"+"500093765210603521"+"**",true)
+    .addField("** [ Ghadir ] **","** غدير**")
     .addField("**[ Bot Developer ]**","<@!484526871573168129> [! HP , Mch , .#2955]")
     .addField("**[ Servers ]**" , "**"+`${client.guilds.size}`+" Server**",true)
     .addField("**[ Users ] **",`** ${client.users.size} User**`)
@@ -67,7 +67,7 @@ var i= guild.iconURL
 const embed = new Discord.RichEmbed()
   
                    .setColor("RANDOM")
-                .setFooter(` ©  Dragon™ `)
+                .setFooter(` غدير `)
                 .setTitle(" Dragon Left Server !")
                 .addField("**Guild Name:**", guild.name )
                  .addField("**Owner:**", guild.owner.user.username )
@@ -87,7 +87,7 @@ var i= guild.iconURL
 const embed = new Discord.RichEmbed()
   
                    .setColor("RANDOM")
-                .setFooter(` ©  Dragon™ `)
+                .setFooter(` غدير `)
                 .setTitle(" Dragon Added To Server !")
                 .addField("**Guild Name:**", guild.name )
                  .addField("**Owner:**", guild.owner.user.username )
@@ -155,7 +155,7 @@ client.on('message' , message => {
     .setFooter(`غدير `)
        .setColor(0xd3d0c4)
   .setAuthor(message.author.username, message.author.avatarURL)
-  .setTitle(':arrow_right: Click Here Invite Link اضغط هنا')
+  .setTitle(':arrow_right: Click Here Invite Link ')
   .setURL('https://discordapp.com/oauth2/authorize?client_id=500093765210603521&scope=bot&permissions=2146958583')
   
   message.channel.sendEmbed(embed);
