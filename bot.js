@@ -4483,6 +4483,7 @@ client.on('message', msg => {
        .setColor("#ffff00")
        .setDescription(`
 	  msg.reply('عيونها');
+ `)
   
   }
 });
