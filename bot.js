@@ -4477,9 +4477,6 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'غدير') {
-         message.react("✅")
-            message.react("📬")
-
 	  msg.reply('عيونها');
 
   }
