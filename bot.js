@@ -4469,4 +4469,84 @@ client.on("message", message => {
       });
             client.login(process.env.BOT_TOKEN);
 
-  
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
+client.on('message', msg => {
+  if (msg.content === 'غدير') {
+    msg.reply('عيونها');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'تحبين؟') {
+    msg.reply('إيه ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'مين مشعل؟') {
+    msg.reply('ألطف واكيت شخص مر علي في حياتي .. الله يخليه');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'كل زق') {
+    msg.reply('كل زقين ياملعون الجدف');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'كل زق انت بعد') {
+    msg.reply('وععع تخيل اكلك؟');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'كلي زق انتي بعد') {
+    msg.reply('وعععع تخيلي أكلك؟');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'الله يقلعك') {
+    msg.reply('ويقلعك يامبسبس');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'الله يلعنك') {
+    msg.reply('يلعني؟ ماما اللعن حرام مارا ترين أهجدي لا العنس انا');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'اه') {
+    msg.reply('سلامتك من الآه الي عورك ياعيوني');
+  }
+});
+
+
+client.on('message', msg => {
+  if (msg.content === 'بموت') {
+    msg.reply('يموت الي يحسدك ولا تموتين او تموت ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'احبكي') {
+    msg.reply('وانا احبك شعولي');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'يضحك') {
+    msg.reply('اكيد يضحك وش استفدت من كلامك يعني؟');
+  }
+});
+
+client.login(process.env.BOT_TOKEN);
