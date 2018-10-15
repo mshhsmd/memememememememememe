@@ -4483,8 +4483,11 @@ client.on('message', msg => {
        .setColor("#ffff00")
        .setDescription(`
 	  msg.reply('عيونها');
- `)
-  
+  `)
+  .setFooter('Requested by '+message.author.username, message.author.avatarURL)
+     
+     
+    message.author.sendEmbed(embed)
   }
 });
 
