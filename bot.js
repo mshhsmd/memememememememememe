@@ -4478,78 +4478,95 @@ client.on('ready', () => {
 client.on('message', msg => {
   if (msg.content === 'غدير') {
     msg.reply('عيونها');
+  message.react("💞")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'هاي') {
     msg.reply('اطلق هاي');
+  message.react("💞")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'كل خرا') {
-    msg.reply('ماكل مبسبسين');
+    msg.reply('ماكلك');
+ message.react("💞")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'كل تبن') {
     msg.reply('التبن والله لو جيتك اعلمك كيف تاكله وترجع لخلقتك الاولى');
+  message.react("😑")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'يمه') {
     msg.reply('بسم الله على لحمك ودمك ونسمك بروحي عنك تعالي اضمك');
+  message.react("💞")
+	  message.react("💞")
+	  message.react("💞")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'تحبين؟') {
     msg.reply('إيه ');
+  message.react("💞")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'مين مشعل؟') {
     msg.reply('ألطف واكيت شخص مر علي في حياتي .. الله يخليه');
+ message.react("💞")
+	  message.react("☺️")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'كل زق') {
     msg.reply('كل زقين ياملعون الجدف');
+ message.react("🤬")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'كل زق انت بعد') {
     msg.reply('وععع تخيل اكلك؟');
+  message.react("😂")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'كلي زق انتي بعد') {
     msg.reply('وعععع تخيلي أكلك؟');
+  message.react("😂")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'الله يقلعك') {
-    msg.reply('ويقلعك يامبسبس');
+    msg.reply('ويقلعك ');
+  message.react("🤬")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'الله يلعنك') {
     msg.reply('يلعني؟ ماما اللعن حرام مارا ترين أهجدي لا العنس انا');
+ message.react("🤬")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'اه') {
     msg.reply('سلامتك من الآه الي عورك ياعيوني');
+  message.react("😔")
+	  message.react("💔")
   }
 });
 
@@ -4557,12 +4574,16 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content === 'بموت') {
     msg.reply('يموت الي يحسدك ولا تموتين او تموت ');
+ message.react("💔")
+	  message.react("💔")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'احبكي') {
     msg.reply('وانا احبك شعولي');
+  message.react("💞")
+	  message.react("😶")
   }
 });
 
@@ -4575,12 +4596,16 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content === 'الله لا يلعنك') {
     msg.reply('فديت روحك الحلوه والله');
+ message.react("💙")
+	  message.react("💙")
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'مين غدير؟') {
     msg.reply('هِي الطاقه والإيجابية لكل شىء بديع وجميل ، هِي الشمس لهذه الحياة والروح لهذا الكون وهِي النسيم إينما حلت وكانت ، أنها أساس كل جميل ولا جميل من دون أساس 💙💙💙');
+ message.react("😶")
+	  message.react("💙")
   }
 });
 
