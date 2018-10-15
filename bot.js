@@ -4479,15 +4479,9 @@ client.on('message', msg => {
   if (msg.content === 'غدير') {
          message.react("✅")
             message.react("📬")
-   const embed = new Discord.RichEmbed() 
-       .setColor("#ffff00")
-       .setDescription(`
+
 	  msg.reply('عيونها');
-  `)
-  .setFooter('Requested by '+message.author.username, message.author.avatarURL)
-     
-     
-    message.author.sendEmbed(embed)
+
   }
 });
 
