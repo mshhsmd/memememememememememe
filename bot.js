@@ -3911,7 +3911,7 @@ client.on("message", message => {
                      if(proposed === message.author) return message.reply(`**خنثى ؟ **`);
                       if(proposed === client.user) return message.reply(`** تبي تتزوجني؟ **`);
                             message.channel.send(`**${proposed} 
-               ببغين تقبلين عرض الزواج مدته ${message.author}
+               تبغين تقبلين عرض الزواج مدته ${message.author}
                 15 ثانية 
                اكتبي موافقه او لا** `)
               
