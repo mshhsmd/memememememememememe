@@ -3902,7 +3902,7 @@ client.on("message", message => {
                   });
 
                   client.on('message', message => {
-                    if(message.content.startsWith ("+marry")) {
+                    if(message.content.startsWith (prefix + 'بتزوج')) {
                     if(!message.channel.guild) return message.reply('** This command only for servers **')
                     var proposed = message.mentions.members.first()
                    
@@ -3911,21 +3911,21 @@ client.on("message", message => {
                      if(proposed === message.author) return message.reply(`**خنثى ؟ **`);
                       if(proposed === client.user) return message.reply(`** تبي تتزوجني؟ **`);
                             message.channel.send(`**${proposed} 
-               بدك تقبلي عرض الزواج من ${message.author}
-               العرض لمدة 15 ثانية 
-               اكتب موافقه او لا** `)
+               ببغين تقبلين عرض الزواج مدته ${message.author}
+                15 ثانية 
+               اكتبي موافقه او لا** `)
               
               const filter = m => m.content.startsWith("موافقه");
               message.channel.awaitMessages(filter, { max: 1, time: 15000, errors: ['time'] })
               .then(collected =>{ 
                   message.channel.send(`**${message.author} و ${proposed}  الف الف مبروك الله يرزقكم الذرية الصالحة كلولولولوش**`);
               })
-                 .catch(collected => message.channel.send(`**السكوت علامة الرضا نقول مبروك ؟**`))
+                 .catch(collected => message.channel.send(`**السكوت علامة الرضا نقول مبروك يا كامل الزين ؟**`))
                  
                  const filte = m => m.content.startsWith("لا");
               message.channel.awaitMessages(filte, { max: 1, time: 15000, errors: ['time'] })
               .then(collected =>{ 
-                 message.channel.send(`**${message.author} تم رفض عرضك**`);
+                 message.channel.send(`**${message.author} يلا عوافي الخيره في الجاي لا تحزن**`);
               })
                       
                 
@@ -4009,6 +4009,7 @@ const cuttweet = [
     '‏كت تويت | وش محتاج عشان تكون مبسوط ؟',
     '‏كت تويت | مطلبك الوحيد الحين ؟',
     '‏كت تويت | هل حدث وشعرت بأنك ارتكبت أحد الذنوب أثناء الصيام؟',
+    '‏كت تويت خاص لغدير | هل تحبين مشعل ، وإن كان ايه وش حبيتي فيه؟',
 ]
  
 client.on('message', message => {
@@ -4243,7 +4244,7 @@ client.on("message", message => {
   └─ لعبة صراحه يعرض عليك اسئله محرجه وعليك جواب بكل صدقيه
 +animal
   └─ يعطيك صور حيوانات
-+marry
++بتزوج
   └─ لعبة زواج تطلب زواج من أي شخص تريده
 +srh
   └─ لأرسال صراحة بدون ذكر اسم المصارح
