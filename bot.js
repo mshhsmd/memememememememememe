@@ -4477,7 +4477,11 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'غدير') {
-    message.react("💞")
+         message.react("✅")
+            message.react("📬")
+   const embed = new Discord.RichEmbed() 
+       .setColor("#ffff00")
+       .setDescription(`
 	  msg.reply('عيونها');
   
   }
@@ -4485,7 +4489,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'هاي') {
-    message.react("💞")
 	  msg.reply('اطلق هاي');
   
   }
@@ -4493,7 +4496,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'كل خرا') {
-    message.react("💞")
 	  msg.reply('ماكلك');
  
   }
@@ -4501,7 +4503,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'كل تبن') {
-   message.react("😑")
 	  msg.reply('التبن والله لو جيتك اعلمك كيف تاكله وترجع لخلقتك الاولى');
   
   }
@@ -4509,9 +4510,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'يمه') {
-    message.react("💞")
-	  message.react("💞")
-	  message.react("💞")
 	  msg.reply('بسم الله على لحمك ودمك ونسمك بروحي عنك تعالي اضمك');
   
   }
@@ -4519,7 +4517,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'تحبين؟') {
-    message.react("💞")
 	  msg.reply('إيه ');
   
   }
@@ -4527,8 +4524,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'مين مشعل؟') {
-    message.react("💞")
-	  message.react("☺️")
 	  msg.reply('ألطف واكيت شخص مر علي في حياتي .. الله يخليه');
  
   }
@@ -4536,7 +4531,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'كل زق') {
-   message.react("🤬")
 	  msg.reply('كل زقين ياملعون الجدف');
  
   }
@@ -4544,7 +4538,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'كل زق انت بعد') {
-    message.react("😂")
 	  msg.reply('وععع تخيل اكلك؟');
   
   }
@@ -4552,7 +4545,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'كلي زق انتي بعد') {
-    message.react("😂")
 	  msg.reply('وعععع تخيلي أكلك؟');
 
   }
@@ -4560,7 +4552,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'الله يقلعك') {
-     message.react("🤬")
 	  msg.reply('ويقلعك ');
 
   }
@@ -4568,7 +4559,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'الله يلعنك') {
-     message.react("🤬")
 	  msg.reply('يلعني؟ ماما اللعن حرام مارا ترين أهجدي لا العنس انا');
 
   }
@@ -4576,8 +4566,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'اه') {
-      message.react("😔")
-	  message.react("💔")
 	  msg.reply('سلامتك من الآه الي عورك ياعيوني');
 
   }
@@ -4586,8 +4574,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'بموت') {
-     message.react("💔")
-	  message.react("💔")
 	  msg.reply('يموت الي يحسدك ولا تموتين او تموت ');
 
   }
@@ -4595,8 +4581,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'احبكي') {
-      message.react("💞")
-	  message.react("😶")
 	  msg.reply('وانا احبك شعولي');
 
   }
@@ -4610,16 +4594,12 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'الله لا يلعنك') {
-     message.react("💙")
-	  message.react("💙")
 	  msg.reply('فديت روحك الحلوه والله');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'مين غدير؟') {
-     message.react("😶")
-	  message.react("💙")
 	  msg.reply('هِي الطاقه والإيجابية لكل شىء بديع وجميل ، هِي الشمس لهذه الحياة والروح لهذا الكون وهِي النسيم إينما حلت وكانت ، أنها أساس كل جميل ولا جميل من دون أساس 💙💙💙');
 
   }
